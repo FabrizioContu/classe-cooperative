@@ -80,11 +80,11 @@ export default function TaskManager() {
   };
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold my-8">
+    <main className="flex flex-col items-center justify-center min-w-max min-h-screen bg-gray-100">
+      <h1 className="text-lg md:text-2xl font-bold my-8 px-2">
         Classe coopérative : gestion des responsabilités
       </h1>
-      <div className="flex flex-row justify-between gap-36">
+      <div className="flex flex-col md:flex-row justify-between gap-36">
         <div className="flex flex-col justify-center gap-4 mb-4 text-white font-semibold">
           {groups.map((group, index) => (
             <div
