@@ -14,23 +14,7 @@ Task Manager App es una aplicación interactiva que permite la asignación aleat
 - Asigna tareas de forma aleatoria a los grupos manteniendo una coherencia en los colores.
 - Muestra los resultados en tarjetas conectadas con la tarea y el grupo asignado.
 
-## Instalación y ejecución
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/tuusuario/task-manager-app.git
-   ```
-2. Accede al directorio del proyecto:
-   ```sh
-   cd task-manager-app
-   ```
-3. Instala las dependencias:
-   ```sh
-   npm install
-   ```
-4. Ejecuta la aplicación:
-   ```sh
-   npm start
-   ```
+
 
 ## Uso
 1. Visualiza los grupos y sus integrantes antes de la asignación.
